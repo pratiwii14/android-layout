@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="30dp">
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Shopee adalah situs elektronik komersial yang berkantor pusat di Singapura di bawah naungan SEA Group, yang didirikan pada 2009 oleh Forrest Li. Shopee pertama kali diluncurkan di Singapura pada tahun 2015, dan sejak itu memperluas jangkauannya ke Malaysia, Thailand, Taiwan, Indonesia, Vietnam, dan Filipina"/>
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="230dp"
+        android:src="@drawable/shopee"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/grab"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="ShopeePay adalah fitur layanan dompet dan uang elektronik yang berfungsi sebagai metode pembayaran dan untuk menyimpan pengembalian dana dari e-commerce Shopee. Saat ini, ShopeePay takmhanya bisa digunakan untuk pembayaran di Shopee saja namun juga di sejumlah merchant yang bekerja sama dengan ShopeePay."/>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="250dp"
+        android:src="@drawable/shopeepay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/grab"/>
+
+</RelativeLayout>
